@@ -525,7 +525,7 @@ section
 
 .categories .box-container .box img
 {
-    margin: 1rem o;
+    margin: 1rem 0;
     height: 15rem;
 }
 
@@ -546,6 +546,7 @@ section
 }
 
 /* categories */
+
 
 
 
@@ -608,6 +609,83 @@ section
 
 
 /* review */
+
+
+/* blogs */
+.blogs .box-container
+{
+    border: 0px solid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem; 
+}
+
+.blogs .box-container .box
+{
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+}
+
+.blogs .box-container .box img
+{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .box-container .box .content
+{
+    padding: 2rem;
+}
+
+.blogs .box-container .box .icons
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: var(--border);
+
+}
+
+.blogs .box-container .box .icons a
+{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.blogs .box-container .box .icons a:hover
+{
+    color: var(--black);
+}
+
+.blogs .box-container .box .icons a i
+{
+    color: green;
+    padding-right: .5rem;
+
+}
+.blogs .box-container .box .content h3
+{
+    line-height: 1.8rem;
+    color: var(--black);
+    font-size: 1.5rem;
+    padding-bottom: .5rem ;
+
+}
+
+.blogs .box-container .box p
+{
+    line-height: 1.8;
+    color: var(--light-color);
+    font-size: 1.5rem;
+    padding: .5rem;
+
+}
+
 
 
 
@@ -674,3 +752,7 @@ section
         font-size: 2.5rem;
     }
 }
+
+
+
+
